@@ -1,0 +1,381 @@
+Prefix(:=<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology>
+Annotation(rdfs:comment "This is an ontology of Computer Course")
+
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Antivirus>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application_Software>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Authentication>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#CPU>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Desktop>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Encryption>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Firewall>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Graphics_Design>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HardDrive>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Java>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#JavaScript>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Laptop>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Linux>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Motherboard>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Operating_System>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Protocol>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#RAM>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Router>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Ruby>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Server>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Spreadsheet>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Switch>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Tablet>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Unix>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Utility_Software>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Web_Browser>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Windows>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Word_Processor>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#macOS>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#C++>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#IP_Address:>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasComponent>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurity>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSoftware>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#runsOn>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#usesProtocol>))
+Declaration(DataProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasIPAddress>))
+Declaration(DataProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasMemorySize>))
+Declaration(DataProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurityLevel>))
+Declaration(DataProperty(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasVersion>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#AntivirusSoftware>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#CPU>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#DellLaptop>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Excel>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Firewall>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#GoogleChrome>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HDD1TB>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HTTP>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Java>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#LinuxMint>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#MacBookPro>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#MicrosoftWord>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python3.9>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#RAM8GB>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Router>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Server01>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#TCPIP>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Ubuntu20.04>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Windows10>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#macOSBigSur>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#C++>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasComponent> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasComponent>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasComponent> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>)
+ObjectPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasComponent> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware>)
+
+# Object Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurity> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurity>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurity> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurity> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>)
+ObjectPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurity> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security>)
+
+# Object Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSoftware> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSoftware>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSoftware> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSoftware> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>)
+ObjectPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSoftware> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software>)
+
+# Object Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#runsOn> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#runsOn>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#runsOn> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#runsOn> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application>)
+ObjectPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#runsOn> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem>)
+
+# Object Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#usesProtocol> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#usesProtocol>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#usesProtocol> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#usesProtocol> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking>)
+ObjectPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#usesProtocol> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Protocol>)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasIPAddress> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasIPAddress>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasIPAddress> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasIPAddress> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking>)
+DataPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasIPAddress> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasMemorySize> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasMemorySize>)
+
+DataPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasMemorySize> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware>)
+DataPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasMemorySize> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurityLevel> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurityLevel>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurityLevel> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurityLevel> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security>)
+DataPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasSecurityLevel> xsd:string)
+
+# Data Property: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasVersion> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasVersion>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasVersion> owl:topDataProperty)
+DataPropertyDomain(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasVersion> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software>)
+DataPropertyRange(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#hasVersion> xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Antivirus> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Antivirus>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Antivirus> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application_Software> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application_Software>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application_Software> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Authentication> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Authentication>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Authentication> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#CPU> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#CPU>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#CPU> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Desktop> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Desktop>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Desktop> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Encryption> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Encryption>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Encryption> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Firewall> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Firewall>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Firewall> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Graphics_Design> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Graphics_Design>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Graphics_Design> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HardDrive> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HardDrive>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HardDrive> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Java> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Java>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Java> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#JavaScript> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#JavaScript>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#JavaScript> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Laptop> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Laptop>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Laptop> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Linux> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Linux>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Linux> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Motherboard> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Motherboard>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Motherboard> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Operating_System> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Operating_System>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Operating_System> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Protocol> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Protocol>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Protocol> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#RAM> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#RAM>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#RAM> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Router> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Router>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Router> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Ruby> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Ruby>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Ruby> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Server> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Server>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Server> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Spreadsheet> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Spreadsheet>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Spreadsheet> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Switch> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Switch>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Switch> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Tablet> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Tablet>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Tablet> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Unix> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Unix>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Unix> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Utility_Software> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Utility_Software>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Utility_Software> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Web_Browser> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Web_Browser>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Web_Browser> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Windows> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Windows>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Windows> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Word_Processor> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Word_Processor>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Word_Processor> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#macOS> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#macOS>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#macOS> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#C++> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#C++>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#C++> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#IP_Address:> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#IP_Address:>)
+
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#IP_Address:> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#AntivirusSoftware> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#AntivirusSoftware>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#AntivirusSoftware>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#CPU> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#CPU>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#CPU>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#DellLaptop> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#DellLaptop>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#DellLaptop>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Excel> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Excel>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Excel>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Firewall> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Firewall>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Security> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Firewall>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#GoogleChrome> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#GoogleChrome>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#GoogleChrome>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HDD1TB> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HDD1TB>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HDD1TB>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HTTP> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HTTP>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#HTTP>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Java> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Java>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Java>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#LinuxMint> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#LinuxMint>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#LinuxMint>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#MacBookPro> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#MacBookPro>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#MacBookPro>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#MicrosoftWord> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#MicrosoftWord>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Application> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#MicrosoftWord>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python3.9> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python3.9>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Python3.9>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#RAM8GB> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#RAM8GB>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Hardware> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#RAM8GB>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Router> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Router>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Router>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Server01> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Server01>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Computer> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Server01>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#TCPIP> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#TCPIP>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Networking> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#TCPIP>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Ubuntu20.04> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Ubuntu20.04>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Ubuntu20.04>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Windows10> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Windows10>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Software> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#Windows10>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#macOSBigSur> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#macOSBigSur>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#OperatingSystem> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#macOSBigSur>)
+
+# Individual: <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#C++> (<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#C++>)
+
+ClassAssertion(<http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#ProgrammingLanguage> <http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology#C++>)
+
+
+)
